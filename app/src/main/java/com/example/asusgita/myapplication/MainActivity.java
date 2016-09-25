@@ -9,8 +9,8 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
 
     Button button0, button1, button2, button3, button4, button5, button6,
-            button7, button8, button9, buttonAdd, buttonSub, buttonDivision,
-            buttonMul, buttonC, buttonEqual;
+            button7, button8, button9, buttonAdd, buttonkurang, buttonDivision,
+            buttonMul, buttonC, buttonEqual, buttonDot;
 
     EditText editText2;
 
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         button9 = (Button) findViewById(R.id.button9);
         buttonDot = (Button) findViewById(R.id.buttonDot);
         buttonAdd = (Button) findViewById(R.id.buttonAdd);
-        buttonSub = (Button) findViewById(R.id.buttonSub);
+        buttonkurang = (Button) findViewById(R.id.buttonkurang);
         buttonMul = (Button) findViewById(R.id.buttonMul);
         buttonDivision = (Button) findViewById(R.id.buttonDivision);
         buttonC = (Button) findViewById(R.id.buttonC);
@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        buttonSub.setOnClickListener(new View.OnClickListener() {
+        buttonkurang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mValueOne = Float.parseFloat(editText2.getText() + "");
