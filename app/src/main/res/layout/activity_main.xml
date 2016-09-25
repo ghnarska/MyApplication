@@ -161,7 +161,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="\u221a"
-            android:id="@+id/buttonEqual"
+            android:id="@+id/buttonSqrt"
             android:layout_weight="1" />
     </LinearLayout>
 
@@ -202,7 +202,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="="
-            android:id="@+id/buttonSub"
+            android:id="@+id/buttonEqual"
             android:layout_weight="1" />
     </LinearLayout>
 
